@@ -29,7 +29,7 @@ Route::get('/returns', function () {
 });
 
 Route::get('/', function () {
-    return view('panel');
+    return view('welcome');
 });
 
 Route::resource('manga', Controller::class);
